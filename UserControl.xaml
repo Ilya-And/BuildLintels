@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="StartClassPlugin.ViewSelectLintel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:StartClassPlugin"
+             mc:Ignorable="d"
+             d:DesignHeight="400" d:DesignWidth="200">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="20"/>
+			<RowDefinition Height="305*"/>
+			<RowDefinition Height="20"/>
+
+		</Grid.RowDefinitions>
+		<TextBlock x:Name="NameOfCategory" FontSize="14px" TextAlignment="Center" Grid.Row="0"/>
+		<ListBox x:Name="ListToChoice" Grid.Row="1"/>
+		<ComboBox x:Name="ComboBoxToSelectLintel" HorizontalAlignment="Center" Grid.Row="2"/>
+
+
+	</Grid>
+</UserControl>
